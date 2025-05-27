@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyi_pkg_demo"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+pyi_pkg_demo = "pyi_pkg_demo:main"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/pyi_pkg_demo",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["pyi_pkg_demo"]

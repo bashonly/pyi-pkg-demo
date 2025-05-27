@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+.*_cache
+build/
+dist/
+venv/
+.venv/

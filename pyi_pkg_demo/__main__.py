@@ -1,4 +1,4 @@
-import time as _
+import requests as _
 
 
 def main():

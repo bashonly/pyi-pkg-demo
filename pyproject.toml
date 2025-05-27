@@ -5,7 +5,9 @@ build-backend = "hatchling.build"
 [project]
 name = "pyi_pkg_demo"
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "requests",
+]
 
 [project.scripts]
 pyi_pkg_demo = "pyi_pkg_demo:main"

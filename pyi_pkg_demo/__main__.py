@@ -1,3 +1,5 @@
+import requests as _
+
 
 def main():
     print('hello')
